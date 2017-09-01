@@ -9,7 +9,7 @@ void draw() {
     rectMode(CENTER);
     
     stroke(0);
-    fill(150,100,100);
+    fill(random(255), random(255), random(255));
     rect(100,100,20,100);
     
     stroke(0);
@@ -22,6 +22,7 @@ void draw() {
     ellipse(119,70,16,32);
     
     stroke(0);
+    fill(random(255), random(255), random(255));
     line(90,150,80,160);
     line(110,150,120,160);
 }
